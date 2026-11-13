@@ -11,7 +11,7 @@ This is an **independent academic redesign**, not the official 3CS website. Port
 - Animated mobile menu with keyboard focus management and a dedicated contact button.
 - Metallic three-ring hero sculpture with a server-rendered CSS fallback.
 - Count-up animations for the About section's headline statistics.
-- Six-service coverflow carousel with touch, pagination and arrow controls.
+- Six-service coverflow carousel with real service-specific photography, touch, pagination and arrow controls.
 - Four-column portfolio parallax on desktop and a swipeable project showcase on mobile.
 - Performance, Security and Reliability accordion on smaller screens.
 - Recognition cards with links to supporting award reports.
@@ -110,6 +110,7 @@ src/
 ├── data/                    # Navigation, services, projects, awards and edge copy
 └── lib/                     # Shared class-name utility
 public/projects/             # Eight local SVG concept studies
+public/services/             # Six locally hosted service photographs
 scripts/                     # Static production-preview server
 vendor/                      # Component reference sources and licence notices
 docs/                        # Source references and verification notes
@@ -190,6 +191,7 @@ See [Changes](CHANGES.md) for subsequent implementation and verification records
 - **React Bits / David Haz:** LogoLoop and SpecularButton adaptations. Preserve the [MIT + Commons Clause notice](vendor/REACT-BITS-LICENSE.md). [React Bits](https://reactbits.dev).
 - **Vengeance UI:** spotlight navigation adaptation. Preserve the [licence notice](vendor/VENGEANCE-LICENSE).
 - **Ali Imam / designali-in:** Accordion 05 reference adapted using Radix primitives. Its supplied reference did not state a licence; attribution and provenance are recorded in [Assets log](ASSETS_LOG.md).
+- **Service photography:** six real photographs by Fatos Bytyqi, Akshat Sharma, Luke Chesser, Helcim Payments, Andy Kennedy and Taylor Vick, used under the [Unsplash License](https://unsplash.com/license). Individual sources and local filenames are recorded in [Assets log](ASSETS_LOG.md). These images are illustrative, not photographs of 3CS operations.
 - **Project artwork:** original SVG studies created for this redesign; they are not official 3CS deliverables.
 
 The project does not declare a blanket open-source licence. Included third-party components retain their respective terms, and referenced company names and brands belong to their respective owners.
